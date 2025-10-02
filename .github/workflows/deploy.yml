@@ -1,9 +1,4 @@
 name: Build, Push and Deploy
-permissions:
-contents: read
-packages: write
-
-
 env:
 IMAGE_NAME: ${{ github.repository_owner }}/${{ github.repository }}
 
